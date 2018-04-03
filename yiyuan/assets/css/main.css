@@ -156,7 +156,7 @@ body{min-width:1200px;}
 
 .zhankai .zhankai-btn img{position: relative;top:4px;margin:0 7px;}
 
-
+.themiddleof .themiddleof1 .menu-close{display: none;}
 .swiper-wrapper,.swiper-slide{height:auto!important;}
 
 .huodong{background: #f3f3f3;color:#b5b5b5;}
@@ -799,7 +799,7 @@ height:auto; margin-top:5%; margin-bottom:5%; }
     .header .top-col{height:auto;}
     .header .search-col .input-col img{right:20px;top:18px;}
     .header .search-col .search-icon{left:5px;top:-38px;display: block;}
-    .header .search-col{width:100%;background: #fff;z-index:10;padding:10px 10px;box-sizing:border-box;border:1px solid #eee;margin:0;float:none;display: none;}
+    .header .search-col{width:100%;background: #fff;z-index:10000;padding:10px 10px;box-sizing:border-box;border:1px solid #eee;margin:0;float:none;display: none;}
     .header .search-col.active{display: block;}
     .header .search-col .input-col input{width:100%;display: block;border:1px solid #eee;padding:10px 10px;line-height: normal;height:auto;}
 
@@ -897,8 +897,8 @@ height:auto; margin-top:5%; margin-bottom:5%; }
 
     .header .menu .share{display: none;}
     body.active .menu-list-col .menu-close{display: inline-block;position: absolute;right:2px;top:-16px;font-size:32px;color:#666;padding:16px 6px;margin:0;}
-    .header .menu-list{display: block;position: absolute;right:15px;top:16px;width:45px;z-index:1000;}
-    .danwei-header .menu-list{top:66px;}
+    .header .menu-list{display: block;position: absolute;right:15px;top:16px;width:45px;z-index:100;}
+    .danwei-header .menu-list{top:auto;bottom:26px;}
     .header .logo-right{display: none;}
     .header .left-text{display: none;}
     .search-col input{display: none;}

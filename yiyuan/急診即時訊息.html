@@ -20,6 +20,7 @@
     
 </head>
 <body id="body">
+
     <header class="header danwei-header" id="header">
 
         <div class="top-col">
@@ -198,8 +199,7 @@
 
     </div>
 
-
-          <div class="themiddleof menu-list-col">
+   <div class="themiddleof menu-list-col">
         <div class="themiddleof1">
 
       	 <a href="###">認識中榮</a>
@@ -243,6 +243,8 @@
         
         </div>
         </div>
+
+
     <div class="content-col">
         <div class="content" >
             <div class="leftnavigation">
@@ -370,9 +372,8 @@
 					</div>
                    </div>
 	            </div>
-            </div>
-	   </div>
-    </div>
+
+
 </div>
 
 
@@ -689,13 +690,13 @@ chagefz.style.fontSize=Number(size)+ "px" ;
 }
 
 
- 
-	    $(".header .menu .share .hover-col a").click(function()
-    {	$("#fb-page").toggle();
-	    $(this).parent().toggleClass("active");	
-    });
-	
-$(".header .menu .share .hover-col a").click(function(d, s, id) {	
+
+$(".header .hover-col a").click(function()
+{	$("#fb-page").toggle();
+    $(this).parent().toggleClass("active");
+});
+
+$(".header .hover-col a").click(function(d, s, id) {
 
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
